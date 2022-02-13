@@ -1,0 +1,267 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+	background: #2c2e3b;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	text-align: center;
+	margin: 20px auto;
+	color: #fff;
+}
+
+.nav_style::-webkit-scrollbar {
+  width: 0px;
+  background-color: #2c2e3b;
+}
+
+.nav_style::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #2c2e3b;
+}
+
+.nav_style::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: #2c2e3b;
+}
+
+.accordion-menu li.open .flex_space_between .fa-chevron-down {
+	transform: rotate(180deg);
+}
+.accordion-menu li:last-child .flex_space_between {
+	border-bottom: 0;
+}
+
+
+
+
+.accordion-menu div {
+	cursor: pointer;
+	padding: 15px 0 15px 0;
+	font-size: 18px;
+	position: relative;
+	transition: all 0.4s ease-out;
+}
+.nav_padding {
+	padding: 0 15px 0 45px;
+	
+}
+.header {
+	height: 90px;
+	position: fixed;
+	background: #2c2e3b;
+	width: 100%;
+	z-index: 2;
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+.studiesItems {
+	background: #3a3c49;
+	border-radius: 5px;
+	padding: 5px 8px;
+	margin-left: 10px;
+}
+
+.oline:before {
+	content: "\25CF  ";
+}
+
+.oline {
+	color: #24ca8c;
+	margin-top: 5px;
+}
+
+.purpur {
+	border-radius: 5px;
+	padding: 8px 9px;
+	background: #6c6afb;
+}
+
+
+h3 {
+	font-weight: 400;
+}
+
+h1 {
+	font-weight: 400;
+}
+
+.flex_space_between {
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+
+.lable {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	padding: 4px 9px;
+}
+
+.lect img {
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+.text_contener {
+	border-bottom: 1px solid #ccc;
+	padding: 20px 20px 40px;
+}
+
+.text_contener h3 {
+	margin: 10px 0;
+	font-weight: 400;
+}
+
+.opt {
+	color: #9d9ea3;
+}
+
+.studies_contener {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.student {
+	margin-left: 20px;
+	display: flex;
+}
+
+.student img {
+	height: 45px;
+	margin-right: 10px;
+}
+
+.pro {
+	margin-left: 20px;
+	font-size: 13px;
+	padding: 2px 8px;
+}
+
+.padding_contener {
+	padding: 20px;
+}
+.lect {
+	display: block;
+	border-radius: 4px;
+	position: relative;
+	margin: 0 20px 40px 0;
+	background: #333544;
+	z-index: 0;
+	float: left;
+	width: 15.7%;
+}
+
+.not_display {
+	display: none;
+}
+
+.submenuItems {
+	display: none;
+	
+}
+.submenuItems li {
+	padding: 6px 0;
+}
+
+.active {
+	background-color: #373948;
+	color: #fff;
+}
+.accordion-menu {
+	width: 100%;
+	max-width: 350px;
+	margin: 30px auto 20px;
+	border-bottom: 1px solid #ccc;
+}
+.accordion-menu div {
+	cursor: pointer;
+	padding: 15px 20px 15px 40px;
+	font-size: 18px;
+	position: relative;
+	transition: all 0.4s ease-out;
+}
+.slider{position: relative;
+	width: 100%;
+	overflow: hidden;
+	display: block;
+height: 340px;}
+.lectures {
+	position: relative;
+	width: calc(100%*6/4);
+	display: block;
+	margin-left: 300px;
+	transform: translate(-300px, 0px);
+}
+.nav_size {
+	width: 270px;
+}
+.submenuItems div {
+	display: block;
+	color: #9d9ea3;
+	padding: 12px 12px 12px 55px;
+	transition: all 0.4s ease-out;
+}
+
+.nav_button {
+	border-radius: 5px;
+	padding: 8px 10px;
+	border: 1px solid #ccc;
+	margin-left: 8px;
+}
+
+.nav_button:hover {
+	background: #3a3c49;
+	border: 1px solid #000;
+}
+
+.pointer {
+	cursor: pointer;
+}
+.block2 {
+	display: flex;
+	align-items: center;
+	border-right: 1px solid #ccc;
+	margin: 20 40px;
+}
+
+.block2 div:hover {
+	color: #eee;
+}
+.course {
+	margin: 40px 10px 10px 30px;
+}
+.nav_style {
+	height: 100%;
+	position: fixed;
+	background: #333544;
+	overflow-y: scroll;
+	z-index: 3;
+}
+.title {
+	margin: 9px 0 25px;
+}
+.main {
+	margin-left: 250px;
+	padding: 0 20px;
+	padding-top: 90px;
+	height: 100%;
+}
